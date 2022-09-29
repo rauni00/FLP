@@ -1,0 +1,23 @@
+<a routerLink="/listings"><button>
+    <i class="fa-regular fa-circle-left"></i>
+    Back
+  </button></a
+>
+<div class="content-box">
+    <h3>Send the seller a message:</h3>
+    <div>
+        <label>
+      Your email address:
+      <input type="text" name="email" [(ngModel)]="email" />
+    </label>
+    </div>
+    <br />
+    <div>
+        Your message:
+        <textarea cols="20" rows="5" [(ngModel)]="message"></textarea>
+    </div>
+    <button (click)="sendMessage()">
+    <i class="fa fa-paper-plane"></i>
+    Send
+  </button>
+</div>

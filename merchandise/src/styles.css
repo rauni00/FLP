@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+
+em {
+    font-size: 15px;
+    /* text-align: center; */
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.Homebtn {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.Deletebtn {
+    background-color: rgb(197, 83, 83);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.Deletebtn:hover {
+    background-color: red;
+    /* cursor: pointer; */
+}
+
+#app-heading {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 5px;
+}
+
+#top-bar {
+    padding: 0px;
+    margin: 0px;
+}
+
+#page-wrap {
+    width: 650px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+hr {
+    color: black;
+    border: 1px solid;
+}
+
+#my-listings-button {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-box {
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 16px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.button-container {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 16px;
+}
+
+.button-container>button {
+    margin-left: 8px;
+}

@@ -1,0 +1,8 @@
+<!-- <p>listings-page works!</p> -->
+<!-- {{ listings | json }} -->
+<div class="content-box" *ngFor="let item of listings">
+    <a routerLink="/listings/{{ item.id }}">
+        <!--!/listings/{{ item.id }} take the id and redirect to ListingDetailComponent  -->
+        <h3>{{ item.name }} - ${{ item.price }}</h3>
+    </a>
+</div>

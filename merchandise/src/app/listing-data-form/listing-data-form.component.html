@@ -1,0 +1,22 @@
+<div class="content-box">
+    <h2>Create New Listing</h2>
+    <form (ngSubmit)="onButtonClicked()">
+        <div>
+            <label> Name: </label>
+            <input type="text" name="name" [(ngModel)]="name" />
+        </div>
+        <div>
+            <label> Item Description: </label>
+            <input class="description" type="text" name="description" [(ngModel)]="description" />
+        </div>
+        <div>
+            <label> Price: </label>
+            <input type="text" name="price" [(ngModel)]="price" />
+        </div>
+        <button type="submit">
+      {{ buttonText }}
+      <i class="fa-regular fa-square-plus"></i>
+    </button>
+    </form>
+</div>
+<!-- 54 c -->

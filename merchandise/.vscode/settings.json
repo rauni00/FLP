@@ -1,0 +1,10 @@
+{
+  "typescript.preferences.quoteStyle": "double",
+  "editor.defaultFormatter": "mcright.auto-save",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

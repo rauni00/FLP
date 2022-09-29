@@ -1,0 +1,20 @@
+<div class="content-box">
+    <a routerLink="/listings"><button>
+      <i class="fa-regular fa-circle-left"></i>
+      Back
+    </button></a
+  >
+  <!--!/listings  => Redirect to ListingsPageComponent -->
+  <h2>
+    {{ listing.name }}
+  </h2>
+  <p>{{ listing.description }}</p>
+  <p class="Price">${{ listing.price }}</p>
+  <a routerLink="/contact/{{ listing.id }}">
+    <!--! /contact/{{ listing.id }} take the id and redirect to ContactPageComponent  -->
+    <button>
+      <i class="fa fa-phone"></i>
+      Contact Seller
+    </button>
+  </a>
+</div>
